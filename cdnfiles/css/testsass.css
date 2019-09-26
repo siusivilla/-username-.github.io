@@ -1,0 +1,203 @@
+body {
+  color: black;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Vollkorn SC', serif;
+  font-weight: 700;
+}
+
+a {
+  color: #e00001;
+}
+
+main {
+  padding-top: 3.5rem;
+}
+
+/*
+  Stile pagina
+*/
+.bg_primary, .bg-dark {
+  background-color: #343a40;
+  color: white !important;
+}
+
+.placeholder-ico {
+  font-size: 5em;
+  margin: 0.2em auto;
+}
+
+section {
+  padding: 2% 0;
+}
+
+/*
+  Navigazione
+*/
+.dropdown-item {
+  padding: .25rem 1rem;
+}
+
+/*
+  Introduzione
+*/
+#introduzione {
+  margin: 0;
+}
+
+.jumbotron {
+  border-radius: 0rem;
+  min-height: 75vh;
+}
+
+/*
+  Categorie
+*/
+#categorie {
+  text-align: center;
+}
+
+#categorie .placeholder-ico {
+  font-size: 2em;
+}
+
+#categorie a {
+  color: inherit;
+}
+
+#categorie a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+/*
+  Come funziona
+*/
+#come-funziona {
+  text-align: center;
+}
+
+.badge-step {
+  display: block;
+  border-radius: 50%;
+  font-size: 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 700;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  width: 2em;
+  margin: 5px auto;
+}
+
+/*
+  Review
+*/
+#review .placeholder-ico {
+  font-size: 3rem;
+}
+
+#review .placeholder {
+  width: 40%;
+  max-width: 90px;
+  margin: 0 auto;
+}
+
+#review .card-body {
+  padding: 0.9rem;
+}
+
+#review .card-text {
+  font-size: 1rem;
+}
+
+#review blockquote {
+  font-size: 0.9rem;
+}
+
+#review .blockquote-footer {
+  font-size: 90%;
+}
+
+#review .cross .fas {
+  font-size: 1rem;
+  padding-right: 4px;
+  color: red;
+}
+
+#review .swiper-container {
+  width: 100%;
+  padding: 30px;
+}
+
+#review .swiper-slide {
+  text-align: center;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#review .swiper-pagination, #review .swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 0;
+}
+
+#review .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+}
+
+#review .swiper-button-next:after, #review .swiper-button-prev:after {
+  font-size: 2rem;
+}
+
+#review .swiper-button-prev {
+  left: 0;
+  color: red;
+}
+
+#review .swiper-button-next {
+  right: 0;
+  color: red;
+}
+
+/*
+  Footer
+*/
+footer {
+  padding-top: 2em;
+  color: white;
+}
+
+footer a {
+  color: inherit;
+}
+
+footer a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+#copy {
+  font-size: 0.9em;
+}
+
+/*
+PAGINA DI REGISTRAZIONE
+*/
+#login, #registration {
+  margin: 5% auto !important;
+}
+/*# sourceMappingURL=style.css.map */
